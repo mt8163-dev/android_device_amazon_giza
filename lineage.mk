@@ -36,3 +36,9 @@ PRODUCT_NAME := lineage_giza
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Fire HD8 2016
 PRODUCT_MANUFACTURER := amzn
+
+# Spoof Fingerprint (CTS)
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="marlin-user 7.1 NDE63V 3389651 release-keys"
+
+BUILD_FINGERPRINT := google/marlin/marlin:7.1/NDE63V/3389651:user/release-keys
