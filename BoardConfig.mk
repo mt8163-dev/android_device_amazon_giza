@@ -22,6 +22,9 @@ DEVICE_PATH := device/amazon/giza
 # Assert
 TARGET_OTA_ASSERT_DEVICE := giza,KFGIWI
 
+# System Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Kernel
 TARGET_KERNEL_CONFIG := giza_defconfig
 
